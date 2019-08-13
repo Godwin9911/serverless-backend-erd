@@ -4,8 +4,8 @@
   "description": "backend for electronic raffle draw",
   "main": "server.js",
   "scripts": {
-    "start": "./node_modules/.bin/netlify-lambda serve express",
-    "build": "./node_modules/.bin/netlify-lambda build express"
+    "start": "node server.js",
+    "build": "netlify-lambda build express"
   },
   "author": "Godwin Agedah",
   "license": "ISC",
